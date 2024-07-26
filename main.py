@@ -92,6 +92,6 @@ if __name__ == "__main__":
     # Example RTSP URL (replace with your actual URL)
     rtsp_url = os.getenv("RTSP_URL")
     # Define the ROI (x, y, width, height)
-    roi = (228, 65, 36, 41)
+    roi = (233, 60, 40, 47)
     delay = 5.0
     monitor_rtsp_stream(rtsp_url, roi, 150, 10, 1.0)
